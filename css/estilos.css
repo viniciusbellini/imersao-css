@@ -1,0 +1,39 @@
+body {
+    background-image: 
+        url('https://images.assetsdelivery.com/compings_v2/mcandy/mcandy1507/mcandy150700028.jpg');
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+}
+
+.menu {
+    background-color: #fff;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-title, 
+.site-subtitle{
+    color: lightslategrey;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
