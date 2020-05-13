@@ -1,13 +1,38 @@
+/*soft reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: 
-        url('https://images.assetsdelivery.com/compings_v2/mcandy/mcandy1507/mcandy150700028.jpg');
+        url('../img/fundo.jpg');
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
+    font-size: 10px;
+}
+
+/*se a tela tiver pelo menos 400px vai carregar estes estilos*/
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+header {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
     background-color: #fff;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 .menu li {
@@ -17,6 +42,11 @@ body {
 .menu ul {
     display: flex;
     justify-content: space-around;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
 }
 
 a {
@@ -36,4 +66,9 @@ a:hover {
 
 .site-subtitle {
     font-style: italic;
+}
+
+.img-portfolio {
+    height: 180px;
+    width: 180px;
 }
